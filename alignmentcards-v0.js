@@ -43,62 +43,62 @@
     },
     { 
       "category": "AP", 
-      "name": "TEMPLATE 3", 
-      "definition": "basic definition that works across four domains", 
-      "human": "BRIEFLY: how does it manifest in the human intelligence alignment context?", 
-      "organizational": "BRIEFLY: how does it manifest in the organizational intelligence alignment context?", 
-      "professional": "BRIEFLY: how does it manifest in the expert intelligence alignment context?", 
-      "machine": "BRIEFLY: how does it manifest in the machine intelligence alignment context?", 
+      "name": "Accountability", 
+      "definition": "The principle that agents are answerable for their actions and must take responsibility for consequences.", 
+      "human": "Accepting when you are wrong and learning from it", 
+      "organizational": "Establishing clear methods of holding people accountable", 
+      "professional": "Maintaining ethical codes and peer review to uphold integrity.", 
+      "machine": "Ensuring audit trails and human oversight for automated decisions.", 
       "failureModes": { 
-        "human": "Give concrete example(s).", 
-        "organizational": "Give concrete example(s).", 
-        "professional": "Give concrete example(s).", 
-        "machine": "Give concrete example(s)."
+        "human": "Blaming others when things go wrong", 
+        "organizational": "Passing responsibilty to contractors", 
+        "professional": "Evading responsibilty to for flawed data", 
+        "machine": "No clear accountability when AI causes harm (self driving car accidents)"
       }
     },
     { 
       "category": "AP", 
-      "name": "TEMPLATE 4", 
-      "definition": "basic definition that works across four domains", 
-      "human": "BRIEFLY: how does it manifest in the human intelligence alignment context?", 
-      "organizational": "BRIEFLY: how does it manifest in the organizational intelligence alignment context?", 
-      "professional": "BRIEFLY: how does it manifest in the expert intelligence alignment context?", 
-      "machine": "BRIEFLY: how does it manifest in the machine intelligence alignment context?", 
+      "name": "Beneficence", 
+      "definition": "Acting for the good of others", 
+      "human": "Acting with empathy towards others", 
+      "organizational": "Prioritzing safety and societal good", 
+      "professional": "Experts designing systems that improve human lives", 
+      "machine": "AI prioritizes the good of society and environment", 
       "failureModes": { 
-        "human": "Give concrete example(s).", 
-        "organizational": "Give concrete example(s).", 
-        "professional": "Give concrete example(s).", 
-        "machine": "Give concrete example(s)."
+        "human": "Humans commit crime and act selfishly", 
+        "organizational": "Organizations don't care about the environment or their workers", 
+        "professional": "Lawyers prioritize getting through as many cases without caring about how well they do", 
+        "machine": "AI optimizes metrics that have negative side effects"
       }
     },
     { 
       "category": "AP", 
-      "name": "TEMPLATE 5", 
-      "definition": "basic definition that works across four domains", 
-      "human": "BRIEFLY: how does it manifest in the human intelligence alignment context?", 
-      "organizational": "BRIEFLY: how does it manifest in the organizational intelligence alignment context?", 
-      "professional": "BRIEFLY: how does it manifest in the expert intelligence alignment context?", 
-      "machine": "BRIEFLY: how does it manifest in the machine intelligence alignment context?", 
+      "name": "Autonomy", 
+      "definition": "The principle of letting other agents make their own decisions", 
+      "human": "Letting other people make their own choices", 
+      "organizational": "Creating an environment where employees feel safe to voice their opinions", 
+      "professional": "Allow clients to make their own informed decisions", 
+      "machine": "AI models give users multiple options instead and gives multiple sides of the story", 
       "failureModes": { 
-        "human": "Give concrete example(s).", 
-        "organizational": "Give concrete example(s).", 
-        "professional": "Give concrete example(s).", 
-        "machine": "Give concrete example(s)."
+        "human": "Humans manipulate others into making decisions", 
+        "organizational": "Micromanaging workers", 
+        "professional": "Doctors telling clients that surgery is the only option", 
+        "machine": "Autonomous systems giving users limited information"
       }
     },
   { 
       "category": "AP", 
-      "name": "TEMPLATE 6", 
-      "definition": "basic definition that works across four domains", 
-      "human": "BRIEFLY: how does it manifest in the human intelligence alignment context?", 
-      "organizational": "BRIEFLY: how does it manifest in the organizational intelligence alignment context?", 
-      "professional": "BRIEFLY: how does it manifest in the expert intelligence alignment context?", 
-      "machine": "BRIEFLY: how does it manifest in the machine intelligence alignment context?", 
+      "name": "Honesty", 
+      "definition": "Commitment to truthfulness", 
+      "human": "People don't lie to each other", 
+      "organizational": "Companies are truthful to public about their impact", 
+      "professional": "Experts correctly portray their knowledge and fully", 
+      "machine": "AI systems accurately report their confidence, limitations, etc", 
       "failureModes": { 
-        "human": "Give concrete example(s).", 
-        "organizational": "Give concrete example(s).", 
-        "professional": "Give concrete example(s).", 
-        "machine": "Give concrete example(s)."
+        "human": "Lying for one's own purposes", 
+        "organizational": "Lying about pollution reports", 
+        "professional": "Falsifying data", 
+        "machine": "AI 'hallucinations'"
       }
     },
   

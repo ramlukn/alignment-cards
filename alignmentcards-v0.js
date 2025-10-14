@@ -6,7 +6,7 @@
     "pathology": "normative void", 
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
-  }
+  },
   {
     "code": "AB", 
     "name": "Hoping for A, Rewarding B", 

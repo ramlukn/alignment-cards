@@ -1,14 +1,20 @@
- export const categories = [
-
+export const categories = [
   {
-    "code": "AP", 
-    "name": "Alignment Principles", 
-    "pathology": "normative void", 
+    "code": "AP",
+    "name": "Alignment Principles",
+    "pathology": "normative void",
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
   },
-  
+  {
+    "code": "AB",
+    "name": "Hoping for A while Rewarding B",
+    "pathology": "incentive misalignment",
+    "color": "#FFF4E6",
+    "description": "These represent situations where organizations or systems reward behaviors that contradict their stated goals — the classic 'Kerr phenomenon.'"
+  }
 ];
+
 
 
  export const cards = [
@@ -147,5 +153,5 @@
        "professional": "Experts misreport or give biased findings to satisfy stakeholders",
        "machine": "AI 'hallucinates' to satisfy the user"
      }
-   },
-]
+   }
+];

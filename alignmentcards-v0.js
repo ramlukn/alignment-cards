@@ -7,6 +7,13 @@
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
   }
+  {
+    "code": "AB", 
+    "name": "Hoping for A, Rewarding B", 
+    "pathology": "lorem ipsum", 
+    "color": "#E6FFE9",
+    "description": "Lorem ipsum."
+  }
 ];
 
 
@@ -101,5 +108,49 @@
         "machine": "AI 'hallucinations'"
       }
     },
-  
+
+   { 
+      "category": "AB", 
+      "name": "Innovation", 
+      "definition": "Rewards risk-taking and learning from failure", 
+      "human": "Humans make mistakes and learn from them", 
+      "organizational": "Companies encourage innovation", 
+      "professional": "Experts pursue novel research", 
+      "machine": "AI systems are optimized to explore and learn safely", 
+      "failureModes": { 
+      "human": "Fear of failure leads to not trying",
+      "organizational": "R&D underfunded compared to operations",
+      "professional": "Research makes little to no progress",
+      "machine": "Prioritizes safety over exploration, leading to limited knowledge"
+      }
+    },
+    {
+      "category": "AB",
+      "name": "Collaboration",
+      "definition": "Agent align incentives with each other",
+      "human": "People share knowledge and work together",
+      "organizational": "Corporations encourage teamwork internally and work externally with other firms",
+      "professional": "Experts collaborate and share data",
+      "machine": "Multi-agent systems coordinate",
+      "failureModes": {
+        "human": "Humans are closed off and progress slows",
+        "organizational": "Departments compete rather than cooperate",
+        "professional": "Experts hide their findings for personal gain",
+        "machine": "Agents act for only themselves"
+      }
+    },
+     {
+     "category": "AB",
+     "name": "Ethical Integrity",
+     "definition": "Ethics and accountability are considered in evaluations",
+     "human": "People act honestly even under pressure",
+     "organizational": "Companies don't prioritize profit over society",
+     "professional": "Experts are honest and transparent in work",
+     "machine": "AI rewards align with truthfulness and societal good",
+     "failureModes": {
+       "human": "People take shortcuts and are dishonesty for quick gains",
+       "organizational": "Companies priortize short-term profit over societal good",
+       "professional": "Experts misreport or give biased findings to satisfy stakeholders",
+       "machine": "AI 'hallucinates' to satisfy the user"
+     }
 ]

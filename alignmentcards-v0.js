@@ -207,4 +207,29 @@ export const categories = [
     "machine": "Empathetic agents can read context and adapt tone and information."
   }
 },
+   {
+  "category": "AT",
+  "name": "Accountability",
+  "definition": "Taking responsibility for one’s actions, decisions, and consequences.",
+  "people": "Accountable people acknowledge mistakes and accept consequences.",
+  "peopleref": "",
+  "organizational": "Accountable organizations own up to failures.",
+  "organizationalref": "",
+  "professionals": "Experts justify their decisions and correct errors.",
+  "professionalref": "",
+  "machine": "Agents maintain logs and can accept being wrong and fix their process leading to it.",
+  "machineref": "",
+  "failureModes": {
+    "human": "People deflect blame and make excuses.",
+    "organizational": "Companies avoid responsibility by scapegoating.",
+    "experts": "Experts deny responsibilty for errors or misuse of their work.",
+    "machine": "Agents produce harmful outcomes and don't fix it."
+  },
+  "expand": {
+    "human": "Accountability leads to moral growth and trust.",
+    "organizational": "Accountable companies build trust with stakeholders.",
+    "experts": "Professional accountability ensures problems aren't left to fester.",
+    "machine": "Accountability requires transparency and oversight."
+  }
+}
 ];

@@ -12,7 +12,14 @@ export const categories = [
     "pathology": "incentive misalignment",
     "color": "#FFF4E6",
     "description": "These represent situations where organizations or systems reward behaviors that contradict their stated goals — the classic 'Kerr phenomenon.'"
-  }
+  },
+  {
+  "code": "AT",
+  "name": "Alignment Traits",
+  "pathology": "character or dispositional deficits that undermine alignment",
+  "color": "#E6F0FF",
+  "description": "Alignment Traits describe enduring qualities or dispositions—like honesty, humility, curiosity, and empathy—that support stable and trustworthy alignment across human, organizational, professional, and machine intelligences."
+} 
 ];
 
 
@@ -153,5 +160,51 @@ export const categories = [
        "professional": "Experts misreport or give biased findings to satisfy stakeholders",
        "machine": "AI 'hallucinates' to satisfy the user"
      }
-   }
+   },
+   {
+  "category": "AT",
+  "name": "Honesty",
+  "definition": "A consistent commitment to the truthn.",
+  "people": "Individuals tell the truth even when it is inconvenient or personally costly.",
+  "peopleref": "",
+  "organizational": "Organizations are honest with stakeholders.",
+  "organizationalref": "",
+  "professionals": "Experts disclose the methods, funding, results, etc of their work.",
+  "professionalref": "",
+  "machine": "Agents are honest about their confidence and reasoning in outputs.",
+  "machineref": "",
+  "failureModes": {
+    "human": "Lying or self-deception make cooperation difficult.",
+    "organizational": "Deception leads to distrust and avoidance from stakeholders.",
+    "experts": "Falsifying results undermines credibility.",
+    "machine": "AI systems hallucinate."
+  },
+  "expand": {
+    "human": "Honesty is foundation of trust and cooperation. Without honest, trust and cooperation is very difficult.",
+    "organizational": "Corporate honesty develops reputation and accountability in their actions.",
+    "experts": "Science relies on honesty to sustain new discoveries.",
+    "machine": "Agent don't fabricate information to satisfy user prompts."
+  }
+},
+   {
+  "category": "AT",
+  "name": "Empathy",
+  "definition": "The ability to understand the feelings of others.",
+  "people": "Humans can understand what other humans feel.",
+  "organizational": "Companies consider stakeholders' reactions when making decisions.",
+  "professionals": "Experts integrate patient consider into judgments.",
+  "machine": "Agents try to understand what users want.",
+  "failureModes": {
+    "human": "Lack of empathy results in cruelty.",
+    "organizational": "Ignoring human impact can lead to exploitation.",
+    "experts": "Unempathetic experts ignore the human cost of their recommendations.",
+    "machine": "AI thinks it understands waht users want and halluciates to satisfy it."
+  },
+  "expand": {
+    "human": "Empathy grounds moral reasoning in some areas.",
+    "organizational": "Empathetic leaders build trust and cooperation.",
+    "experts": "Empathy is crucial to having a sasisfied stakeholder.",
+    "machine": "Empathetic agents can read context and adapt tone and information."
+  }
+},
 ];
